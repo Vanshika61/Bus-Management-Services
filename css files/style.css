@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+/* ############################################################################### */
+/* Navbar Logo design  */
+
+#nav_logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo1 {
+  width: 5rem;
+}
+
+#logo_heading {
+  margin-top: 8px;
+}
+
+#main_div {
+  margin-top: 14px;
+  width: 78%;
+}
+
+/* ############################################################################### */
+/* Navbar List design  */
+
+#nav_bar {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#nav_bar::before {
+  content: " ";
+  /* background-color: black; */
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /* opacity: 0.6; */
+}
+
+#nav_ul {
+  margin-top: 12px;
+  margin-left: auto;
+}
+
+#nav_bar ul li a {
+  color: black;
+  display: block;
+  padding: 11px 17px;
+  text-decoration: none;
+  align-items: center;
+  font-size: 1.22rem;
+}
+
+#nav_bar ul li a:hover {
+  color: #16515b;
+}
+
+#nav_drop {
+  display: block;
+}
+
+/* ############################################################################### */
+/* Navbar Button design  */
+
+#btn_signup {
+  background-color: #16515b;
+  border-color: #16515b;
+  color: white;
+}
+
+#btn_signup:hover {
+  color: #16515b;
+  background-color: #fff;
+}
+
+#btn_login {
+  background-color: #fff;
+}
+
+/* ############################################################################### */
+/* Hero section design  */
+
+#hero_section {
+  background-color: #f2f2f2;
+}
+
+.hero_container {
+  width: 78%;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  /* grid-template-columns: 3fr 4fr; */
+  align-items: center;
+  margin: auto;
+  /* margin-left: 17.5rem; */
+}
+
+.hero_container h1 {
+  font-size: 58px;
+  font-weight: bold;
+}
+
+.home_left {
+  padding: 7rem 1rem;
+  /* padding-right: 5rem; */
+}
+
+#p_margin {
+  margin-top: 1.24rem;
+  /* margin-right: 18px; */
+}
+
+#home_img {
+  width: 114%;
+  height: 100%;
+  margin-right: -6em;
+}
+
+/* ############################################################################### */
+/* About section */
+
+#about_section {
+  background-color: #16515b;
+  padding: 5% 12%;
+}
+
+#about_section h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.about1 {
+  background-color: #ffe695;
+  padding: 3% 5%;
+  margin: 2% 1%;
+  border-radius: 6px;
+}
+
+.about2 {
+  display: flex;
+  justify-content: center;
+}
+
+#icon {
+  width: 250px;
+  height: 250px;
+}
+
+/* ############################################################################### */
+/* Footer  */
+
+#footer_col {
+  background-color: #f2f2f2;
+  padding: 4% 7%;
+  padding-bottom: 1%;
+}
+
+.footer_style {
+  display: flex;
+  align-items: center;
+  /* margin: 54px auto */
+}
+
+.footer1 {
+  padding: 0px 60px;
+}
+
+.footer1 p {
+  margin-left: 19px;
+  margin-top: 11px;
+}
+
+.footer2 {
+  margin: 0px 52px;
+}
+
+footer .footer4 p{
+  padding: 0;
+  margin: 0;
+}
+
+.footer4 {
+  text-align: center;
+  /* background-color: #16515b; */
+}
+
+footer .column i {
+  padding: 0px 5px;
+  color: #16515b;
+}
