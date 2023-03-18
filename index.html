@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Management Services</title>
+
+    <!-- Style sheet link  -->
+    <link rel="stylesheet" href="css files/style.css" />
+    <link rel="stylesheet" href="css files/media_query.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://kit.fontawesome.com/aa05dadff6.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+    <!-- <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script> -->
+  </head>
+  <body>
+    <!-- Navbar Section  -->
+      <nav class="navbar navbar-expand-lg" id="nav_bar">
+        <div class="container-fluid" id="main_div">
+          <div id="nav_logo">
+            <img id="logo1" src="images/logo.png" alt="Logo" />
+            <h2 id="logo_heading">Busss</h2>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-2" id="nav_ul">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#hero_section"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_section">About</a>
+              </li>
+              <li class="nav-item dropdown" id="nav_drop">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Bus Facility
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Bus card</a></li>
+                  <li><a class="dropdown-item" href="#">Submit fee</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item"  target="_blank" href="grivenceForm.html">Grivences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer_col">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-light" id="btn_login" type="Login">
+                <a class="nav-link" href="login.html">Login</a>
+              </button>
+              <button class="btn btn-outline" id="btn_signup" type="Signup">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="signup.html"
+                  >Sign up</a
+                >
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero section  -->
+      <main id="hero_section">
+        <div class="hero_container">
+          <div class="home_left">
+            <h1>Life is journey, travel safe with your dreams!</h1>
+            <p id="p_margin">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              voluptas magni placeat minima. Dolorum enim maiores laboriosam
+              nobis? Id quam ipsum ad. Lorem ipsum dolor.
+            </p>
+          </div>
+          <div class="home_right">
+            <img id="home_img" src="images/bus.png" alt="Bus Image" />
+          </div>
+        </div>
+      </main>
+
+      <!-- About section  -->
+      <section id="about_section">
+        <h2>Here's how Busss can manages your precious journey</h2>
+        <div class="about1">
+          <h3>Your Purpose</h3>
+          <p id="p_margin">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+            cupiditate excepturi, ab sunt nostrum voluptas, debitis modi
+            voluptate dolorem assumenda aliquam commodi quo maiores ut. Incidunt
+            cupiditate itaque doloremque quo?
+          </p>
+        </div>
+        <div class="about2">
+          <lord-icon
+            id="icon"
+            src="https://cdn.lordicon.com/oegrrprk.json"
+            trigger="hover"
+            colors="primary:#f2f2f2,secondary:#646e78,tertiary:#ffc738,quaternary:#4bb3fd"
+          >
+          </lord-icon>
+
+          <lord-icon
+            id="icon"
+            src="https://cdn.lordicon.com/fihkmkwt.json"
+            trigger="hover"
+            colors="primary:#242424,secondary:#f4f19c"
+          >
+          </lord-icon>
+
+          <lord-icon
+            id="icon"
+            src="https://cdn.lordicon.com/flvisirw.json"
+            trigger="hover"
+            colors="primary:#e4e4e4,secondary:#9cf4a7,tertiary:#eee966"
+          >
+          </lord-icon>
+        </div>
+      </section>
+
+      <!-- Footer section  -->
+      <footer id="footer_col">
+      
+        <div class="container footer_style">
+          <div class="footer1">
+            <img id="logo1" src="images/logo.png" alt="Logo" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Recusandae, itaque dignissimos nihil saepe explicabo, expedita
+              iste quae tempore dolor cum facilis laborum delectus! Ratione
+              dolor.
+            </p>
+          </div>
+
+          
+          <div class="container footer2">
+              <h3>Contact us</h3>
+              <p>xyz@gmail.com</p>
+              <p>+91 123123123</p>
+              <p>+91 123123123</p>
+            </div>
+
+            <div class="container footer3">
+              <h3>Follow us</h3>
+              <p>Let us be social</p>
+              <div class="column ">
+                <i class="fab fa-facebook-f "></i>
+                <i class="fab fa-instagram "></i>
+                <i class="fab fa-twitter "></i>
+                <i class="fab fa-youtube "></i>
+              </div>
+            </div>
+          </div>
+        <hr>
+        <div  class="footer4">
+          <p>Copyrigt &copy; 2022 made with ❤ by me</p>
+        </div>
+      </footer>
+      
+    </div>
+
+    <!-- Bootstrap js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
